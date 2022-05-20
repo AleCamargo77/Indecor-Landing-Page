@@ -1,0 +1,88 @@
+@media (max-width: 550px) {
+
+    /* Banner Principal */
+    .banner-main {
+        height: auto;
+    }
+
+    .banner-info {
+        margin-top: 80px;
+    }
+
+    .banner-form {
+        margin-bottom: 3em;
+    }
+
+    .form-button a {
+        opacity: 1;
+        max-width: 100%;
+    }
+
+    .images-content p {
+        text-align: center;
+    } 
+
+    /* Location*/
+
+    .location-content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+
+    .Spotlight-location {
+        order: 1;
+        text-align: center;
+    }
+
+    .Spotlight-location p {
+        display: none;
+}
+
+    .banner-location {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+    }
+
+    .icon-location {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        order: 2;
+    }
+
+    /* Decoration */
+
+    #img-decor {
+        display: none;
+    }
+
+    .decoration-content h1 {
+        max-width: 100%;
+    }
+
+    .decoration-content img {
+        width: 100%; 
+        order: 2;  
+    }
+
+    #decoration-img {
+        margin-left: 0;
+    }
+
+    .decoration-content ul {
+        order: 1;
+    }
+
+    /* Subscription */
+    .subscription-container h3, a {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .subscription-container a {
+        opacity: 1;
+    } 
+}
